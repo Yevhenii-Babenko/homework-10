@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Instagram</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom mb-4">
+        <div class="container justify-content-center">
+            <a class="navbar-brand me-5" href="#">
+                <img class="brand-logo" src="assets/images/brand/Instagram.png" alt="Brand">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-evenly w-75" id="navbarSupportedContent">
+                <form class="d-flex me-5">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <img src="assets/images/icons/home.png" alt="Instagram navigate icon" class="nav-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/images/icons/massege.png" alt="Instagram navigate icon" class="nav-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/images/icons/compass.png" alt="Instagram navigate icon" class="nav-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/images/icons/like.png" alt="Instagram navigate icon" class="nav-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="assets/images/bumblebee/b.main.jpg" alt="Instagram navigate icon" class="nav-icon profile-img rounded-circle">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="content">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-sm-4 d-flex justify-content-center">
+                    <img src="assets/images/bumblebee/b.main.jpg" class="portfolio-img" alt="Portfolio photo">
+                </div>
+                <div class="col-sm-8 d-grid gap-4">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-sm-5 me-2">
+                                    <h2 class="user-name">Bumblebee</h2>
+                                </div>
+                                <div class="col-sm-7 w-25">
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn me-1 rounded btn-primary">Follow</button>
+                                        <button id="btnGroupDrop1" type="button" class="btn me-1 rounded btn-primary dropdown-toggle btn-sm" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <li><a class="dropdown-item" href="#">Temporarily block</a></li>
+                                            <li><a class="dropdown-item" href="#">Add to "Friends list"</a></li>
+                                            <li><a class="dropdown-item" href="#">Restrict</a></li>
+                                            <li><a class="dropdown-item" href="#">Do not follow</a></li>
+                                        </ul>
+                                        <button type="button" class="btn btn-light">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                                <path class="horizontal-dots" d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row notification-row">
+                        <div class="col-sm-2 me-1 col-md-6 col-lg-2 d-flex align-items-center "><p class="notification__count me-1">79</p><p class="notification__info">posts</p></div>
+                        <div class="col-sm-4 me-1 col-md-3 col-lg-2 d-flex justify-content-center"><p class="notification__count me-1">379</p><p class="notification__info">followers</p></div>
+                        <div class="col-sm-5 me-1 col-md-3 col-lg-2 d-flex"><p class="notification__count me-1">179</p><p class="notification__info">following</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-11">
+                            <h3 class="user-name__transcript">Bumblebee</h3>
+                            <p class="transcript-content">He is Robot-superhero, member of the Autobots team. He prefers yellow color, likes Volkswagen Beetle
+                                and Chevrolet Camaro cars. He is the best friend of Optimus Prime and they together dislike Decepticons</p>
+                            <a href="#">bit.ly/35Ce3mX</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stories-bar">
+        <div class="container-lg border-bottom mt-5">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="stories-bar d-flex">
+                            <div class="col justify-content-center d-flex flex-column align-items-center ">
+                                <img src="assets/images/bumblebee/b.o.jpg" alt="" class="stories-img img-fluid rounded-circle">
+                                <p class="stories-bar__context mt-2">Best friends</p>
+                            </div>
+                            <div class="col justify-content-center d-flex flex-column align-items-center">
+                                <img src="assets/images/bumblebee/b4.jpg" alt="" class="stories-img img-fluid rounded-circle">
+                                <p class="stories-bar__context mt-2">Music lover</p>
+                            </div>
+                            <div class="col justify-content-center d-flex flex-column align-items-center">
+                                <img src="assets/images/bumblebee/b3.jpg" alt="" class="stories-img img-fluid rounded-circle">
+                                <p class="stories-bar__context mt-2">My suits</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active nav-link-self_style" id="post-tab" data-bs-toggle="tab" href="#post" role="tab" aria-controls="post" aria-selected="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3" viewBox="0 0 16 16">
+                            <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13zM1.5 1a.5.5 0 0 0-.5.5V5h4V1H1.5zM5 6H1v4h4V6zm1 4h4V6H6v4zm-1 1H1v3.5a.5.5 0 0 0 .5.5H5v-4zm1 0v4h4v-4H6zm5 0v4h3.5a.5.5 0 0 0 .5-.5V11h-4zm0-1h4V6h-4v4zm0-5h4V1.5a.5.5 0 0 0-.5-.5H11v4zm-1 0V1H6v4h4z"/></svg>Post</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link nav-link-self_style" id="tagged-tab" data-bs-toggle="tab" href="#tagged" role="tab" aria-controls="tagged" aria-selected="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/></svg>Tagged</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="post" role="tabpanel" aria-labelledby="post-tab">
+                    <div class="row">
+                        <div class="col-sm-4 mb-3 col-md-4 col-lg-4">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/b1.jpg" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3 col-md-4 col-lg-4">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/b2.jpg" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3 col-md-4 col-lg-4">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/b3.jpg" alt="Post image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/b4.jpg" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/b5.jpg" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/b6.png" alt="Post image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/b.7.jpg" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/b9.png" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/b10.jpg" alt="Post image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tagged" role="tabpanel" aria-labelledby="tagged-tab">
+                    <div class="row mb-3">
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/tagged/t1.png" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/tagged/t2.jpg" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/tagged/t3.jpg" alt="Post image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/tagged/t4.jpg" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/tagged/t5.jpg" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/tagged/t6.jpg" alt="Post image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/tagged/t7.jpg" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/tagged/t8.jpg" alt="Post image">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3">
+                            <div class="posts-item">
+                                <img class="posts__img img-fluid" src="assets/images/bumblebee/tagged/t9.jpg" alt="Post image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!-- -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+<script>feather.replace()</script>
+</body>
+</html>
