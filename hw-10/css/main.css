@@ -1,0 +1,125 @@
+body{
+    margin: 0 auto;
+    max-width: 90.5rem;
+    /*font-family: "Helvetica Neue", sans-serif;*/
+    font-size: 1.0625em;
+    font-weight: 400;
+    background-color: var(--instagram-desktop);
+    --instagram-black: #262626;
+    --instagram-gray: #8F8F8F;
+    --instagram-link: #133768;
+    --instagram-desktop: #FAFAFA;
+
+
+}
+
+.brand-logo{
+    width: 105px;
+    height: 30px;
+}
+
+.posts-item .posts__img{
+    /*width: 297px;*/
+    /*height: 297px;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    object-fit: contain;
+}
+
+.nav-icon{
+    width: 22px;
+}
+.profile-img{
+    object-fit: cover;
+    width: 22px;
+    height: 22px;
+}
+
+.portfolio-img{
+    width: 154px;
+    height: 153px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-name{
+    font-style: var(--instagram-black);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.user-name__transcript{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-dots{
+    fill: var(--instagram-black);
+    width: 4px;
+    height: 4px;
+}
+
+.transcript-content{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    color: var(--instagram-black);
+}
+
+.notification-row > div{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: var(--instagram-black)
+}
+
+.stories-bar .stories-img{
+    width: 79px;
+    height: 79px;
+    /* PLACEHOLDER */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    object-fit: cover;
+}
+
+.nav-link-self_style{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    color: var(--instagram-black);
+}
+
+.stories-bar__context{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--instagram-black);
+}
